@@ -1,0 +1,14 @@
+name: Weekly R&D Reminder
+
+on:
+  schedule:
+    - cron: '0 0 * * 1' # Mon 00:00 UTC
+  workflow_dispatch:
+
+jobs:
+  remind:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Reminder
+        run: |
+          echo "Create this week issues: [WEEKLY], [EXP], [RISK] as needed."

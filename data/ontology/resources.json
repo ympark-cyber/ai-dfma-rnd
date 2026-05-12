@@ -1,0 +1,51 @@
+[
+  {
+    "id": "R-001",
+    "name": "Rhino / Grasshopper",
+    "type": "sw",
+    "spec": "Rhinoceros 8 + Grasshopper 플러그인 개발 환경",
+    "used_by_wbs": [300]
+  },
+  {
+    "id": "R-002",
+    "name": "ExactFlat",
+    "type": "sw",
+    "spec": "상용 곡면 전개 소프트웨어, API 라이선스",
+    "used_by_wbs": [300]
+  },
+  {
+    "id": "R-003",
+    "name": "ANSYS",
+    "type": "sw",
+    "spec": "ANSYS Mechanical, 열-기계 연성 해석, API 연동",
+    "used_by_wbs": [800]
+  },
+  {
+    "id": "R-004",
+    "name": "SAP2000",
+    "type": "sw",
+    "spec": "구조 해석 소프트웨어, API 연동 (2순위)",
+    "used_by_wbs": [800]
+  },
+  {
+    "id": "R-005",
+    "name": "인덕션 히팅 가변형 다점 프레스",
+    "type": "equipment",
+    "spec": "1m×1m, 리니어 액추에이터 핀베드, 메쉬망+고내열 실리콘 패드, PLC 제어",
+    "used_by_wbs": [400, 500]
+  },
+  {
+    "id": "R-006",
+    "name": "3D 스캐너",
+    "type": "equipment",
+    "spec": "구조광 또는 레이저 스캐너, 정밀도 ±0.1mm급",
+    "used_by_wbs": [600]
+  },
+  {
+    "id": "R-007",
+    "name": "레이저 절단 로봇",
+    "type": "equipment",
+    "spec": "6축 다관절 로봇 + 파이버 레이저 절단 헤드",
+    "used_by_wbs": [700]
+  }
+]

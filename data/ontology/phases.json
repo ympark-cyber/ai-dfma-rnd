@@ -1,0 +1,24 @@
+[
+  {
+    "id": "PH-1",
+    "name": "장비 개발",
+    "description": "기획·요구사항·상세설계·조립·시운전·통합검증 24주 집중 개발",
+    "start_week": 1,
+    "end_week": 24,
+    "start_date": "2026-04-06",
+    "end_date": "2026-09-20",
+    "parent_project": "PRJ-001",
+    "status": "in_progress"
+  },
+  {
+    "id": "PH-2",
+    "name": "알고리즘 고도화·인증·사업화",
+    "description": "알고리즘 v2 고도화, 실규모 시제품 검증, KOLAS 인증, 특허·논문, 최종 보고",
+    "start_week": 25,
+    "end_week": 78,
+    "start_date": "2026-09-21",
+    "end_date": "2027-09-30",
+    "parent_project": "PRJ-001",
+    "status": "planned"
+  }
+]

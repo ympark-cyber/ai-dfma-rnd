@@ -1,0 +1,82 @@
+[
+  {
+    "id": "DOC-2026-0001",
+    "type": "DOC",
+    "title": "프로젝트 차터 v1",
+    "date": "2026-04-10",
+    "owner": "P-PM",
+    "summary": "과제 목표·범위·R&R·일정·예산·리스크 관리 체계를 확정한 공식 차터",
+    "refs": ["TSK-2026-0001", "TSK-2026-0002"],
+    "tags": ["WBS-100", "charter", "planning"]
+  },
+  {
+    "id": "DOC-2026-0002",
+    "type": "DOC",
+    "title": "리스크 레지스터 v1",
+    "date": "2026-04-12",
+    "owner": "P-PM",
+    "summary": "10개 리스크 식별 (FEA 불일치, 핀 정렬 오차, 가열 균일도 등), High 등급 5개",
+    "refs": ["TSK-2026-0003"],
+    "tags": ["WBS-100", "risk"]
+  },
+  {
+    "id": "DOC-2026-0003",
+    "type": "DOC",
+    "title": "시스템 요구사항서(SRS) v1",
+    "date": "2026-04-18",
+    "owner": "P-AI",
+    "summary": "±1mm 최종 정밀도, 1m×1m 장비 규격, E2E 자동화 파이프라인 요구사항 정의",
+    "refs": ["TSK-2026-0004"],
+    "tags": ["WBS-200", "requirements"]
+  },
+  {
+    "id": "DOC-2026-0004",
+    "type": "DOC",
+    "title": "±1mm 오차예산 초안",
+    "date": "2026-04-19",
+    "owner": "P-AI",
+    "summary": "설계→전개→성형→스캔→보정→트리밍 각 공정별 오차 예산 배분 분석",
+    "refs": ["TSK-2026-0005"],
+    "tags": ["WBS-200", "precision", "tolerance-budget"]
+  },
+  {
+    "id": "DEC-2026-0001",
+    "type": "DEC",
+    "title": "ExactFlat 라이선스 발주 결정",
+    "date": "2026-05-01",
+    "owner": "P-AI",
+    "summary": "상용 전개 솔루션으로 ExactFlat 채택. 근거: FEA 연동 API 지원, 기존 Rhino 생태계와 호환성",
+    "refs": ["TSK-2026-0008", "TSK-2026-0009"],
+    "tags": ["WBS-300", "decision", "ExactFlat"]
+  },
+  {
+    "id": "DOC-2026-0005",
+    "type": "DOC",
+    "title": "SW 아키텍처 v1",
+    "date": "2026-05-03",
+    "owner": "P-AI",
+    "summary": "Rhino/GH → ExactFlat → ANSYS API → 보정 매핑 → 툴패스 변환 파이프라인 아키텍처 확정",
+    "refs": ["TSK-2026-0009"],
+    "tags": ["WBS-300", "architecture", "pipeline"]
+  },
+  {
+    "id": "DOC-2026-0006",
+    "type": "DOC",
+    "title": "[세종대] 실험계획서(DoE) v1",
+    "date": "2026-05-03",
+    "owner": "P-SJ",
+    "summary": "알루미늄 시트 온도·압력·핀 분해능 파라미터 조합 DoE 설계. 총 27개 실험 케이스",
+    "refs": ["TSK-2026-0010"],
+    "tags": ["WBS-800", "DoE", "세종대"]
+  },
+  {
+    "id": "LRN-2026-0001",
+    "type": "LRN",
+    "title": "인덕션 가열 균일도 사전 검토",
+    "date": "2026-05-10",
+    "owner": "P-EQ",
+    "summary": "1m×1m 영역에서 인덕션 히팅 온도 편차 ±15°C 이상 발생 가능성 확인. 온도센서 보강 및 멀티존 제어 필요 판단",
+    "refs": ["TSK-2026-0012", "TSK-2026-0013"],
+    "tags": ["WBS-400", "WBS-500", "induction-heating", "lesson-learned"]
+  }
+]

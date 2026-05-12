@@ -1,0 +1,25 @@
+{
+  "id": "PRJ-001",
+  "name": "Global Top-tier ±1mm 초정밀 AI·DfMA 기반 알루미늄 이중휨 패널 생산 시스템 개발",
+  "short_name": "AI-DfMA 비정형 파사드 R&D",
+  "type": "디딤돌 과제",
+  "lead_org": "주관기관",
+  "partner_org": "세종대학교",
+  "start_date": "2026-04-06",
+  "end_date": "2027-09-30",
+  "total_weeks": 78,
+  "kpis": [
+    { "id": "KPI-1", "label": "제작 정밀도", "target": "±1mm 달성", "unit": "mm" },
+    { "id": "KPI-2", "label": "제작비 절감", "target": "30%", "unit": "%" },
+    { "id": "KPI-3", "label": "공정능력", "target": "Cp/Cpk 기준 충족", "unit": "-" },
+    { "id": "KPI-4", "label": "자동화 완성도", "target": "E2E 반복재현 안정화", "unit": "-" },
+    { "id": "KPI-5", "label": "지식재산권", "target": "특허 출원 + 논문 제출", "unit": "-" }
+  ],
+  "sejongu_kpis": [
+    { "id": "KPI-S1", "label": "해석-실측 MAE", "mid": "≤1.5mm", "final": "≤1.0mm" },
+    { "id": "KPI-S2", "label": "변형 예측 R²", "target": "≥0.85" },
+    { "id": "KPI-S3", "label": "보정 후 오차 개선율", "target": "30% 이상" },
+    { "id": "KPI-S4", "label": "공정 파라미터 가이드라인", "target": "최적 영역 1세트 도출" },
+    { "id": "KPI-S5", "label": "기술문서 정시 제출율", "target": "100%" }
+  ]
+}

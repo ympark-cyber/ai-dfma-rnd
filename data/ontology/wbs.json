@@ -1,0 +1,92 @@
+[
+  {
+    "code": 100,
+    "name": "PMO/사업관리",
+    "color": "#888780",
+    "bg": "#F1EFE8",
+    "text_color": "#444441",
+    "description": "프로젝트 차터, R&R, 일정·예산·리스크 관리, 주간/월간 보고",
+    "timeline": { "start_week": 1, "end_week": 78 },
+    "owner": "P-PM"
+  },
+  {
+    "code": 200,
+    "name": "요구사항/아키텍처/정밀도 예산",
+    "color": "#378ADD",
+    "bg": "#E6F1FB",
+    "text_color": "#0C447C",
+    "description": "SRS, ±1mm 오차예산, SW 아키텍처, 시스템 설계 기준",
+    "timeline": { "start_week": 1, "end_week": 10 },
+    "owner": "P-AI"
+  },
+  {
+    "code": 300,
+    "name": "설계자동화 SW",
+    "color": "#7F77DD",
+    "bg": "#EEEDFE",
+    "text_color": "#3C3489",
+    "description": "Rhino 플러그인, ExactFlat API, FEA 보정 매핑, 툴패스 변환기, Digital Thread",
+    "timeline": { "start_week": 4, "end_week": 36 },
+    "owner": "P-AI"
+  },
+  {
+    "code": 400,
+    "name": "장비 HW",
+    "color": "#1D9E75",
+    "bg": "#E1F5EE",
+    "text_color": "#085041",
+    "description": "인덕션 히팅 가변형 다점 프레스 1m×1m, 핀베드, 프레임, 케이스",
+    "timeline": { "start_week": 3, "end_week": 24 },
+    "owner": "P-EQ"
+  },
+  {
+    "code": 500,
+    "name": "제어/전장",
+    "color": "#BA7517",
+    "bg": "#FAEEDA",
+    "text_color": "#633806",
+    "description": "PLC 다축 제어, 케이블 라우팅, 안전 인터록 회로",
+    "timeline": { "start_week": 5, "end_week": 24 },
+    "owner": "P-CT"
+  },
+  {
+    "code": 600,
+    "name": "검측/보정",
+    "color": "#D85A30",
+    "bg": "#FAECE7",
+    "text_color": "#4A1B0C",
+    "description": "3D 스캔, 오차맵 파이프라인, AI 보정모델, 재가공 루프",
+    "timeline": { "start_week": 14, "end_week": 65 },
+    "owner": "P-SC"
+  },
+  {
+    "code": 700,
+    "name": "로봇 레이저 트리밍",
+    "color": "#D4537E",
+    "bg": "#FBEAF0",
+    "text_color": "#72243E",
+    "description": "다관절 로봇 레이저 절단, 경로 보정, 절단 정밀도 시험",
+    "timeline": { "start_week": 16, "end_week": 65 },
+    "owner": "P-RB"
+  },
+  {
+    "code": 800,
+    "name": "구조해석 자동화",
+    "color": "#639922",
+    "bg": "#EAF3DE",
+    "text_color": "#27500A",
+    "description": "ANSYS/SAP2000 API 연동, 열-기계 FEA, 자동 배치실행·결과 피드백",
+    "timeline": { "start_week": 6, "end_week": 36 },
+    "owner": "P-SJ"
+  },
+  {
+    "code": 900,
+    "name": "통합검증/성과확산",
+    "color": "#E24B4A",
+    "bg": "#FCEBEB",
+    "text_color": "#791F1F",
+    "description": "E2E 통합 시험, 인증(KOLAS/NEP/CE/ISO), 특허·논문, 최종 보고",
+    "timeline": { "start_week": 50, "end_week": 78 },
+    "owner": "P-PM"
+  }
+]

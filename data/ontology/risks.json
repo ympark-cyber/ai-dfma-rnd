@@ -1,0 +1,102 @@
+[
+  {
+    "id": "RSK-2026-001",
+    "title": "FEA-실측 데이터 불일치",
+    "severity": "high",
+    "probability": "medium",
+    "mitigation": "데이터셋 재정의, 피처 재선정, 재학습 주기 고정",
+    "trigger": "오차 개선 정체 2주 이상",
+    "owner": "P-AI",
+    "affects": ["TSK-2026-0014", "TSK-2026-0015", "G4"]
+  },
+  {
+    "id": "RSK-2026-002",
+    "title": "다점 프레스 핀 정렬 오차",
+    "severity": "high",
+    "probability": "medium",
+    "mitigation": "조립 공차 관리, 주기적 캘리브레이션 SOP 수립",
+    "trigger": "반복 시험 편차 확대",
+    "owner": "P-EQ",
+    "affects": ["G3", "G4"]
+  },
+  {
+    "id": "RSK-2026-003",
+    "title": "인덕션 가열 균일도 부족",
+    "severity": "high",
+    "probability": "medium",
+    "mitigation": "열분포 맵 기반 멀티존 제어, 온도센서 보강",
+    "trigger": "국부 과열 또는 스프링백 급증",
+    "owner": "P-CT",
+    "affects": ["G3", "G4"]
+  },
+  {
+    "id": "RSK-2026-004",
+    "title": "3D 스캔 노이즈/정합 오류",
+    "severity": "medium",
+    "probability": "medium",
+    "mitigation": "스캔 SOP 수립, 기준좌표 보정, 필터링 파이프라인 강화",
+    "trigger": "오차맵 비정상 패턴 반복",
+    "owner": "P-SC",
+    "affects": ["G3"]
+  },
+  {
+    "id": "RSK-2026-005",
+    "title": "로봇 레이저 경로 오차",
+    "severity": "high",
+    "probability": "medium",
+    "mitigation": "오프셋 보정 테이블 구축, 경로 시뮬레이션 사전 검증",
+    "trigger": "절단 공차 이탈 증가",
+    "owner": "P-RB",
+    "affects": ["G3", "G4"]
+  },
+  {
+    "id": "RSK-2026-006",
+    "title": "±1mm KPI 미달",
+    "severity": "high",
+    "probability": "medium",
+    "mitigation": "보정 루프 별도 기간 확보, 단계적 KPI 운영(중간 ≤±2mm)",
+    "trigger": "월간 KPI 미달 2회 연속",
+    "owner": "P-PM",
+    "affects": ["G4", "G5"]
+  },
+  {
+    "id": "RSK-2026-007",
+    "title": "일정 지연 (부품 수급/셋업)",
+    "severity": "medium",
+    "probability": "medium",
+    "mitigation": "장기납기 부품 선발주 완료, 대체부품 리스트 확보",
+    "trigger": "임계 부품 납기 지연",
+    "owner": "P-PM",
+    "affects": ["G2", "G3"]
+  },
+  {
+    "id": "RSK-2026-008",
+    "title": "인증 준비 지연 (NEP/CE/ISO)",
+    "severity": "medium",
+    "probability": "medium",
+    "mitigation": "인증 로드맵 선행 수립, 시험기관 사전 협의",
+    "trigger": "인증 요구사항 변경",
+    "owner": "P-PM",
+    "affects": ["G8", "G9"]
+  },
+  {
+    "id": "RSK-2026-009",
+    "title": "특허 선행기술 충돌",
+    "severity": "medium",
+    "probability": "low",
+    "mitigation": "선행특허 정밀조사 수행, 클레임 범위 조정",
+    "trigger": "거절이유 통지 수신",
+    "owner": "P-PM",
+    "affects": ["G8"]
+  },
+  {
+    "id": "RSK-2026-010",
+    "title": "산학 협업 데이터 전달 지연",
+    "severity": "medium",
+    "probability": "medium",
+    "mitigation": "주간 인터페이스 회의 고정, 표준 포맷(JSON/CSV) 확정",
+    "trigger": "데이터 전달 누락 반복",
+    "owner": "P-PM",
+    "affects": ["TSK-2026-0016", "TSK-2026-0017", "G2"]
+  }
+]

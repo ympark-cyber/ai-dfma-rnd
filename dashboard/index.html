@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI-DfMA R&D Dashboard</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="container">
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-row">
+    <div>
+      <h1 class="hero-title">AI-DfMA 비정형 파사드 R&D</h1>
+      <p class="hero-sub">±1mm 알루미늄 이중휨 패널 시스템 · 2026.04 ~ 2027.09 · 18개월</p>
+    </div>
+    <span class="hero-tag" data-phase="1">Phase 1 · 장비 개발</span>
+  </div>
+
+  <div class="stats">
+    <div class="stat"><div class="stat-l">전체 진행</div><div class="stat-v" id="overall-pct">–<small>%</small></div></div>
+    <div class="stat"><div class="stat-l">현재 주차</div><div class="stat-v" id="cur-week">–<small>/78</small></div></div>
+    <div class="stat"><div class="stat-l">다음 게이트</div><div class="stat-v" id="next-gate">–</div></div>
+    <div class="stat"><div class="stat-l">최종 종료</div><div class="stat-v" id="dday-final">–</div></div>
+  </div>
+
+  <div class="pbar"><div class="pfill" id="overall-bar" style="width:0%"></div></div>
+  <div class="pmeta"><span>2026-04-06 착수</span><span>2027-09-30 종료</span></div>
+</section>
+
+<!-- 1. NOW -->
+<section class="sec" id="sec-now">
+  <h2 class="sh"><span class="sn">1</span> 이번 주 · <span id="week-range">–</span></h2>
+  <div class="now-grid" id="now-grid"></div>
+</section>
+
+<!-- 2. TIMELINE -->
+<section class="sec" id="sec-timeline">
+  <h2 class="sh"><span class="sn">2</span> 18개월 타임라인 · WBS × 시간</h2>
+  <div class="tl" id="timeline"></div>
+</section>
+
+<!-- 3. WBS -->
+<section class="sec" id="sec-wbs">
+  <h2 class="sh"><span class="sn">3</span> WBS 9개 카테고리 · 진행 현황</h2>
+  <div class="wbs-grid" id="wbs-grid"></div>
+</section>
+
+<!-- 4. ONTOLOGY -->
+<section class="sec" id="sec-onto">
+  <h2 class="sh"><span class="sn">4</span> 온톨로지 · 지식 그래프 질의</h2>
+  <div class="onto" id="onto"></div>
+</section>
+
+<!-- 5. KNOWLEDGE -->
+<section class="sec" id="sec-know">
+  <h2 class="sh"><span class="sn">5</span> 최근 지식 카드</h2>
+  <div class="k-grid" id="know-grid"></div>
+</section>
+
+</div>
+<script src="assets/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,128 @@
+[
+  {
+    "id": "G1",
+    "week": 4,
+    "date": "2026-05-03",
+    "title": "기획·요구사항·발주 확정",
+    "phase": "PH-1",
+    "status": "passed",
+    "success_criteria": [
+      "프로젝트 차터 승인",
+      "SRS 및 ±1mm 오차예산 확정",
+      "장기납기 부품 스펙 동결 및 발주",
+      "SW 아키텍처 v1 승인"
+    ]
+  },
+  {
+    "id": "G2",
+    "week": 10,
+    "date": "2026-06-14",
+    "title": "상세설계·안전회로 확정",
+    "phase": "PH-1",
+    "status": "upcoming",
+    "success_criteria": [
+      "상세 기구설계 v2 확정",
+      "케이블 라우팅 v1 확정",
+      "프레임/케이스 제작도 확정",
+      "안전회로 v1 검토 완료"
+    ]
+  },
+  {
+    "id": "G3",
+    "week": 16,
+    "date": "2026-07-26",
+    "title": "조립·시운전·트리밍 1차 연동",
+    "phase": "PH-1",
+    "status": "planned",
+    "success_criteria": [
+      "장비 전체 조립 완료",
+      "PLC 기본 인터록 시험 통과",
+      "3D 스캔 연동 및 오차맵 파이프라인 동작",
+      "로봇 레이저 트리밍 셀 1차 정밀도 시험 통과"
+    ]
+  },
+  {
+    "id": "G4",
+    "week": 21,
+    "date": "2026-08-30",
+    "title": "±1mm 성능 검증",
+    "phase": "PH-1",
+    "status": "planned",
+    "success_criteria": [
+      "±1mm 달성 반복 재현성 확인",
+      "E2E 통합 공정 2회 이상 성공",
+      "Cp/Cpk 분석 완료",
+      "성능 리포트 v1 제출"
+    ]
+  },
+  {
+    "id": "G5",
+    "week": 24,
+    "date": "2026-09-20",
+    "title": "최종 통합 데모 (Phase 1 완료)",
+    "phase": "PH-1",
+    "status": "planned",
+    "success_criteria": [
+      "최종 통합 데모 실시",
+      "최종 보고서 제출",
+      "사용자 매뉴얼 및 SOP 제출",
+      "특허/논문 초안 제출"
+    ]
+  },
+  {
+    "id": "G6",
+    "week": 36,
+    "date": "2026-12-13",
+    "title": "알고리즘 v2 + 통합 안정화",
+    "phase": "PH-2",
+    "status": "planned",
+    "note": "추정값 — Phase 2 계획 수립 시 확정",
+    "success_criteria": [
+      "AI 보정 알고리즘 v2 완성",
+      "구조해석 자동화 파이프라인 안정화",
+      "연속 생산 안정성 확인"
+    ]
+  },
+  {
+    "id": "G7",
+    "week": 50,
+    "date": "2027-03-21",
+    "title": "실규모 시제품 + 통계 검증",
+    "phase": "PH-2",
+    "status": "planned",
+    "note": "추정값 — Phase 2 계획 수립 시 확정",
+    "success_criteria": [
+      "실규모(1m×1m) 시제품 제작 및 검증",
+      "통계적 공정능력(Cp/Cpk) 최종 달성",
+      "3D 스캔 피드백 루프 완전 자동화"
+    ]
+  },
+  {
+    "id": "G8",
+    "week": 65,
+    "date": "2027-07-04",
+    "title": "KOLAS 인증 + 특허 출원 완료",
+    "phase": "PH-2",
+    "status": "planned",
+    "note": "추정값 — Phase 2 계획 수립 시 확정",
+    "success_criteria": [
+      "KOLAS 인증 신청 및 심사 통과",
+      "핵심 특허 출원 완료",
+      "SCI 논문 제출"
+    ]
+  },
+  {
+    "id": "G9",
+    "week": 78,
+    "date": "2027-09-30",
+    "title": "최종 보고 + 사업화 준비",
+    "phase": "PH-2",
+    "status": "planned",
+    "note": "추정값 — Phase 2 계획 수립 시 확정",
+    "success_criteria": [
+      "최종 연구 보고서 제출",
+      "기술 이전 준비 완료",
+      "사업화 로드맵 확정"
+    ]
+  }
+]
